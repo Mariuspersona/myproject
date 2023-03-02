@@ -44,5 +44,10 @@ export const place_order={
 export const purchase_button={
     purchase_button:"//button[text()='Purchase']"    
     
+ }    
+
+export const confirmation={
+    confirmation_button:"//button[text()='OK']"    
     
+ }    
     
