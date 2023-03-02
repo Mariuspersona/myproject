@@ -1,3 +1,7 @@
+export const login_button={
+    login_button:"//i[contains(@id, 'login2')]"
+
+
 export const categories={
     phones:"//i[contains(@class, 'Phones')]", 
     laptops:"//i[contains(@class, 'Laptops')]", 
