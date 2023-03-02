@@ -1,6 +1,8 @@
 import { main_site, URL } from "../../API";
 import { actionsUtils } from "../../Actions";
 import { cart_details } from "../../cart_details";
+import { credentials } from "../../credentials";
+import { Utils } from "../../utils"
 
 
 describe('Order placement process', function () {
@@ -8,6 +10,15 @@ describe('Order placement process', function () {
     cy.visit(main_site.main)
 
     })
+    
+    it('Login', function(){
+        Utils.clickOn(login.login_header)
+        Utils.typeString(login.username, credentials.username_valid)
+        Utils.typeString(login.password, credentials.password_valid)
+        Utils.clickOn(login.login_button)
+
+    } )    
+    
 
     it('Add to cart phones', function(){
 
