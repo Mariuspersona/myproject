@@ -14,5 +14,9 @@ export const laptops={
 }
 export const monitors={
     asus:"//a[@href='https://www.demoblaze.com/prod.html?idp_=14']", 
+ }   
+    
+export const cart_button={
+    cart_button:"//i[contains(@class, 'btn btn-success btn-lg')]"     
    
 }
