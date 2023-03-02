@@ -40,6 +40,9 @@ export const place_order={
     year:"//input[@id='year']"
     
 }    
+
+export const purchase_button={
+    purchase_button:"//button[text()='Purchase']"    
     
     
     
