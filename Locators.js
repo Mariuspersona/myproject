@@ -1,6 +1,9 @@
-export const login_button={
-    login_button:"//i[contains(@id, 'login2')]"
-
+export const login={
+    login_header:"//i[contains(@id, 'login2')]",
+    username:"//i[contains(@id, 'loginusername')]",
+    password: "//i[contains(@id, 'loginpassword')]",
+    login_button: "//button[text()='Log in']"    
+    
 
 export const categories={
     phones:"//i[contains(@class, 'Phones')]", 
